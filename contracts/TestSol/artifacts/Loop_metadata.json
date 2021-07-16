@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "loop",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TestSol/ForWhile.sol": "Loop"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TestSol/ForWhile.sol": {
+			"keccak256": "0x4f9879c65bc03a3d8c2b067e35a5dabd22fbd2a1f60def0db1b737fc6304a635",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7361685fcfb39ee935e094ab7885f58113adae0c6e58606e20eea5a268666f33",
+				"dweb:/ipfs/QmauKrmGyWXxHsQkYqWcFHgf4nKcXeYBC8JunaMm67xjj8"
+			]
+		}
+	},
+	"version": 1
+}

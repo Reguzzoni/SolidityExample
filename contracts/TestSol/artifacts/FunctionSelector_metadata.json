@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_func",
+						"type": "string"
+					}
+				],
+				"name": "getSelector",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"getSelector(string)": {
+					"notice": "When a function is called, the first 4 bytes of calldata specifies which function to call. This 4 bytes is called a function selector. Take for example, this code below. It uses call to execute transfer on a contract at the address addr. addr.call(abi.encodeWithSignature(\"transfer(address,uint256)\", 0xSomeAddress, 123)) The first 4 bytes returned from abi.encodeWithSignature(....) is the function selector. Perhaps you can save a tiny amount of gas if you precompute and inline the function selector in your code? Here is how the function selector is computed.   /*  \"transfer(address,uint256)\" 0xa9059cbb \"transferFrom(address,address,uint256)\" 0x23b872dd"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TestSol/FunctorSelector.sol": "FunctionSelector"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TestSol/FunctorSelector.sol": {
+			"keccak256": "0xc1eebfee5cc3bed8e5633d9a05600f12d34beb7de1d7b508ac68947b969a1391",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2e935d6e6712b761a75570d81ceaa5423ffda18c7b2abd83efb1f9578935edb4",
+				"dweb:/ipfs/QmVYYGFS862JfMmngaZfk3ep63wCTcPLnMT2Yc5bMXVa21"
+			]
+		}
+	},
+	"version": 1
+}

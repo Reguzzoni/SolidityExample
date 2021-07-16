@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getStatus",
+				"outputs": [
+					{
+						"internalType": "enum Enum.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TestSol/TestEnum.sol": "TestEnum"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TestSol/Enum.sol": {
+			"keccak256": "0x1b412bc3c9b1c02bc6d854255f5b79cde2ea3cfe6061a0a001da68192b9a3647",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://40985e7286b5fad0938f06575a9fc7aef09d1820e73810f19ce8e2c794cb9546",
+				"dweb:/ipfs/QmZWccBZDRfU3oBDZ3qyYZ7cq6X7c4ucRLgb6LiC1pGMr5"
+			]
+		},
+		"contracts/TestSol/TestEnum.sol": {
+			"keccak256": "0xcf38ec52af13ce44b645d2c356a9a3395fcbf987714424b754332316a1a0f655",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://719776946774288f1c4a5ef07dcb9d144285c0486a417d77740c72b961fa3172",
+				"dweb:/ipfs/QmT2EEsbadnVhDbJL4zSiU5qDjr1fK8x6MWQi1HntwDAxQ"
+			]
+		}
+	},
+	"version": 1
+}

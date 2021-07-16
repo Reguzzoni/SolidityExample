@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "AnotherLog",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Events allow logging to the Ethereum blockchain. Some use cases for events are: Listening for events and updating user interface A cheap form of storage",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TestSol/Events.sol": "Event"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TestSol/Events.sol": {
+			"keccak256": "0xf939965dbb1cb5599e27c079bd17fe02aca38d47984490c1634ee6f04b8474be",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e87fd71bc97f927e43a78c7f64b0aef19abf799e1430d7a8e58d5c148574b1ec",
+				"dweb:/ipfs/QmNMdJr5vb9QVDGGe2fiiaiVawTktvVsEipcHoUqL5rBPh"
+			]
+		}
+	},
+	"version": 1
+}

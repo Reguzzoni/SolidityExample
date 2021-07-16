@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Sending Ether (transfer, send, call) How to send Ether? You can send Ether to other contracts by transfer (2300 gas, throws error) send (2300 gas, returns bool) call (forward all gas or set gas, returns bool) How to receive Ether? A contract receiving Ether must have at least one of the functions below receive() external payable fallback() external payable receive() is called if msg.data is empty, otherwise fallback() is called. Which method should you use? call in combination with re-entrancy guard is the recommended method to use after December 2019. Guard against re-entrancy by making all state changes before calling other contracts using re-entrancy guard modifier",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TestSol/SendingEther.sol": "ReceiveEther"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TestSol/SendingEther.sol": {
+			"keccak256": "0x34ba76a2cbf7c70004aec6dddc47fa68a3b9e5384314907ce4477ce84cc3031a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d45bf7e0fd369888b209004b66b244e4ba7fb66f705f5ecd667f48f2eb909a7a",
+				"dweb:/ipfs/QmbRJrnL15UPD6hoYzunraa8oPciVxqWUQXTY6FGazgYGT"
+			]
+		}
+	},
+	"version": 1
+}

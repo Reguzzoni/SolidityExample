@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getReserves",
+				"outputs": [
+					{
+						"internalType": "uint112",
+						"name": "reserve0",
+						"type": "uint112"
+					},
+					{
+						"internalType": "uint112",
+						"name": "reserve1",
+						"type": "uint112"
+					},
+					{
+						"internalType": "uint32",
+						"name": "blockTimestampLast",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TestSol/Interface.sol": "UniswapV2Pair"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TestSol/Interface.sol": {
+			"keccak256": "0x0449ccd289a7830e04da1607322a580a33756e820cd952820f4f6f5010c73ab3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://12cf99db6e058db1c2945c5bf4240ebb8275d567e561b6a5d869de4961cea4bf",
+				"dweb:/ipfs/Qmepc4zKb3FP7ZqtkHccjeQc2pueLWoZTeTo3DB89opm5T"
+			]
+		}
+	},
+	"version": 1
+}
